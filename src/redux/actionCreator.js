@@ -6,6 +6,6 @@ export const fetchMovies = () => ({
   type: types.FETCH_MOVIES,
   meta: {
     type: "api",
-    url: host + api_key,
+    url: host + process.env.MOVIES_API_KEY
   }
 });
