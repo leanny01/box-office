@@ -3,8 +3,8 @@
 ## Todo
 
 - [X] Add router
-- [ ] display movies on the home page
-- [ ] display currently playing movies
+- [X] display movies on the home page
+- [X] display currently playing movies
 - [ ] search box
 - [ ] search functionality
 - [ ] style
