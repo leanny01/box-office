@@ -8,11 +8,13 @@ export const initialState = {
 
 export const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case types.MOVIE:
+        case types.FETCH_MOVIES:
             return {
                 ...state,
-                movie: action.GET_MOVIES,
+                movies: action.payload,
             };
+        default:
+            return state;
 
     };
 }

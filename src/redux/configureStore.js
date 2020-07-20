@@ -9,6 +9,7 @@ export const configureStore = () => {
     initialState,
     applyMiddleware(apiMiddleware)
   );
+
   return store;
 };
 
