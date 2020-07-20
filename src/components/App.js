@@ -8,8 +8,9 @@ import {
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './parts/nav'
-
 import Home from './pages/home'
+import Playing from './pages/playing'
+
 
 function App() {
   return (
@@ -20,9 +21,9 @@ function App() {
           <Route path="/" component={Home} exact>
             <Home />
           </Route>
-          {/* <Route path="/movie/:id?" component={movie}>
-            <Movie />
-          </Route> */}
+          <Route path="/playing" component={Playing}>
+            <Playing />
+          </Route>
         </Switch>
       </div>
     </Router>

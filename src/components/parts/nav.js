@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Navbar, Nav, Form,Button,FormControl } from "react-bootstrap";
-const header = () => {
+const nav = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="#home">Movie-box</Navbar.Brand>
@@ -19,4 +19,4 @@ const header = () => {
   );
 };
 
-export default header
+export default nav

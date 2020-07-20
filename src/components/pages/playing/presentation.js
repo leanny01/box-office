@@ -4,10 +4,7 @@ import { Row, Col, Button, Card } from "react-bootstrap";
 import './style.css'
 
 const MovieCard = ({ movie }) => {
-
   const base_url = "http://image.tmdb.org/t/p/w500/";
-
-
   return (
 
       <Card style={{ width: "18rem" }} className="card">
@@ -24,7 +21,7 @@ const Presentation = ({ movies }) => {
     <Container fluid>
       <Row className="row">
         <Col>
-          <h1>Upcoming movies</h1>
+          <h1>Currently Playing</h1>
         </Col>
       </Row>
       <Row className="row">

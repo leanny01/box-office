@@ -1,24 +1,23 @@
 import React, { useEffect, useState }from "react";
 import Presentation from "./presentation";
 import { connect } from "react-redux";
-import {fetchMovies} from './redux/actionCreator'
+import {nowPlaying} from './redux/actionCreator'
 
 const mapStateToProps = (state) => {
 
-  return { movies: state.upcomingMovies.movies };
+  return { movies: state.nowPlaying.playing };
 };
 const mapDispatchToProps = (dispatch) => ({
-    fetchMovies: () => dispatch(fetchMovies()),
+    nowPlaying: () => dispatch(nowPlaying()),
 });
-
-const Home = (props) => {
+const Playing = (props) => {
 
     const {results,dates,page,total_pages,total_results } = props.movies
     const [movie, setMovie] = useState([])
     const [userId,setUserId] = useState(0)
 
     useEffect(() => {
-        props.fetchMovies()
+     props.nowPlaying()
     }, [userId])
 
     if (!results) {
@@ -29,4 +28,4 @@ const Home = (props) => {
     )
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(Playing);
