@@ -18,4 +18,5 @@ This is an attempt to experiment with different type of redux middleware.
 - [ ] search functionality
 - [ ] style
 - [X] deploy
+- [ ] fix deployments issues
 
