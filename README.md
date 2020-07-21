@@ -14,6 +14,7 @@ This is an attempt to experiment with different type of redux middleware.
 - [x] display movies on the home page
 - [x] display currently playing movies
 - [x] search box
+- [ ] Single view
 - [ ] search functionality
 - [ ] style
 - [X] deploy
