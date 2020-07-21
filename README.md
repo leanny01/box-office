@@ -1,6 +1,12 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/08252b8d6eac459fbd41eb55c5637d88)](https://app.codacy.com/manual/leanny01/box-office?utm_source=github.com&utm_medium=referral&utm_content=leanny01/box-office&utm_campaign=Badge_Grade_Dashboard)
+
 ## Checkout currently playing movies
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/08252b8d6eac459fbd41eb55c5637d88)](https://app.codacy.com/manual/leanny01/box-office?utm_source=github.com&utm_medium=referral&utm_content=leanny01/box-office&utm_campaign=Badge_Grade_Dashboard)
+Checkout latest movies [here](https://box-office-027.herokuapp.com/).
+
+## About
+
+This is an attempt to experiment with different type of redux middleware.
 
 ## Todo
 
@@ -10,5 +16,5 @@
 - [x] search box
 - [ ] search functionality
 - [ ] style
-- [-] deploy
+- [X] deploy
 
