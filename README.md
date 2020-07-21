@@ -10,4 +10,5 @@
 - [x] search box
 - [ ] search functionality
 - [ ] style
-- [ ] deploy
+- [-] deploy
+
