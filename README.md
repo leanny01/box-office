@@ -6,17 +6,18 @@ Checkout latest movies [here](https://box-office-027.herokuapp.com/).
 
 ## About
 
-This is an attempt to experiment with different type of redux middleware.
+A hacked version of Netflix built with react.
 
 ## Todo
 
 - [X] Add router
 - [x] display movies on the home page
 - [x] display currently playing movies
-- [x] search box
-- [ ] Single view
-- [ ] search functionality
-- [ ] style
 - [X] deploy
+- [X] implement redux
+- [ ] search box
+- [ ] Single view
+- [ ] style
 - [ ] fix deployments issues
+- [ ] User managment
 
