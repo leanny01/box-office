@@ -11,7 +11,7 @@ Note: This is a work in progress; there is more coming keep on this repos as we 
 
 - Reactjs  `v. ^16.13.1`
 - Redux `v. ^4.0.5`
-- Node `v ^13.12.0`
+- Node `v. ^13.12.0`
 
 Data used in this app is from [themoviedb.org](https://www.themoviedb.org/)
 
