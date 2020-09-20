@@ -5,6 +5,8 @@
 Let imagine a different look for Netflix.
 Checkout the live version [here](https://box-office-027.herokuapp.com/).
 
+Note: This is a work in progress; there is more coming keep on this repos as we  imagine a different Netflix.
+
 ## Build with
 
 - Reactjs  `v. ^16.13.1`
