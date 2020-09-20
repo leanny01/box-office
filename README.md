@@ -19,8 +19,8 @@ Data used in this app is from [themoviedb.org](https://www.themoviedb.org/)
 
 
 - clone the app on your computer
-- cd into the directory and run npm install
-- run npm start , the app should run on port 3000
+- `cd` into the directory and run `npm install`
+- run `npm start` , the app should run on port `3000`
 
 ## Todo
 
