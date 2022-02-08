@@ -1,9 +1,7 @@
 const apiMiddleware = store => next => action => {
-  console.log(`api middleware called`)
     if (!action.meta || action.meta.type !== "api") {
       return next(action);
     }
-    console.log(`this is an api call`)
 
 
     const { url } = action.meta;

@@ -21,6 +21,10 @@ function App() {
         <Route path="/" component={Home} exact />
         <Route path="/playing" component={Playing} exact />
         </Switch>
+
+        <a href="https://icons8.com/icon/Cyd3RrXHOV9V/play">
+          Play icon by Icons8
+        </a>
       </div>
     </Router>
   );

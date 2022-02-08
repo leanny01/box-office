@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Container from 'react-bootstrap/Container';
-import { Row, Col, Button, Card } from "react-bootstrap";
+import { Row, Col,Card } from "react-bootstrap";
 import './style.css'
 
 const MovieCard = ({ movie }) => {
