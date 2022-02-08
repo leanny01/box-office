@@ -18,6 +18,7 @@ const Playing = (props) => {
   const [popUp, setPopUpOpen] = useState({ isOpen: false });
 
   const showHidePopUp = (movie) => {
+   
     if (movie) {
       setPopUpOpen({ isOpen: true, movie: movie });
     } else {
@@ -35,7 +36,7 @@ const Playing = (props) => {
   }
   return (
     <>
-      <Presentation movies={results} />
+      <Presentation movies={results} showHidePopUp={showHidePopUp}/>
       {popUp.isOpen && (
         <PopUp movie={popUp.movie} showHidePopUp={showHidePopUp} />
       )}

@@ -51,7 +51,7 @@ background-color: rgba(0, 0, 0, 0.8);
 
   .hero {
     position: relative;
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     background-image: linear-gradient(
         to top,

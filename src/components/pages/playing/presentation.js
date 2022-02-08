@@ -3,11 +3,11 @@ import Container from 'react-bootstrap/Container';
 import { Row, Col,Card } from "react-bootstrap";
 import './style.css'
 
-const MovieCard = ({ movie }) => {
+const MovieCard = ({ movie,showHidePopUp }) => {
   const base_url = "http://image.tmdb.org/t/p/w500/";
   return (
 
-      <Card style={{ width: "18rem" }} className="card">
+      <Card style={{ width: "18rem" }} className="card" onClick={()=>showHidePopUp(movie)}>
         <Card.Img variant="top" src={base_url + movie.backdrop_path} />
         <Card.Body>
           <Card.Title>{movie.title}</Card.Title>
@@ -16,7 +16,7 @@ const MovieCard = ({ movie }) => {
 
   );
 };
-const Presentation = ({ movies }) => {
+const Presentation = ({ movies,showHidePopUp }) => {
   return (
     <Container fluid>
       <Row className="row">
@@ -26,7 +26,7 @@ const Presentation = ({ movies }) => {
       </Row>
       <Row className="row">
         {movies.map((movie, index) => {
-          return <MovieCard movie={movie} key={index} />;
+          return <MovieCard movie={movie} key={index}  showHidePopUp={showHidePopUp}/>;
         })}
       </Row>
     </Container>
