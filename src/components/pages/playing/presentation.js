@@ -9,9 +9,7 @@ const MovieCard = ({ movie,showHidePopUp }) => {
 
       <Card style={{ width: "18rem" }} className="card" onClick={()=>showHidePopUp(movie)}>
         <Card.Img variant="top" src={base_url + movie.backdrop_path} />
-        <Card.Body>
-          <Card.Title>{movie.title}</Card.Title>
-        </Card.Body>
+        
       </Card>
 
   );
