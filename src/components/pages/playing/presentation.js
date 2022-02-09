@@ -1,19 +1,12 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
-import { Row, Col,Card } from "react-bootstrap";
+import { Row, Col} from "react-bootstrap";
+
+import MovieCard from '../../parts/moviecard/moviecard';
+
 import './style.css'
 
-const MovieCard = ({ movie,showHidePopUp }) => {
-  const base_url = "http://image.tmdb.org/t/p/w500/";
-  return (
 
-      <Card style={{ width: "18rem" }} className="card" onClick={()=>showHidePopUp(movie)}>
-        <Card.Img variant="top" src={base_url + movie.backdrop_path} />
-        
-      </Card>
-
-  );
-};
 const Presentation = ({ movies,showHidePopUp }) => {
   return (
     <Container fluid>

@@ -61,8 +61,7 @@ background-color: rgba(0, 0, 0, 0.8);
       url(${(props) => props.img});
     background-repeat: no-repeat;
     background-size: contain,cover;
-   // background-position: center;
-
+   
     
     .hero_content {
       position: absolute;
@@ -78,6 +77,7 @@ background-color: rgba(0, 0, 0, 0.8);
       .title {
         font-size: 4em;
         font-weight: 800;
+        line-height: .9em;
       }
 
       .buttons {
