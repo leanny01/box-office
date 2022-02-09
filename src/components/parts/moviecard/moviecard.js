@@ -2,11 +2,11 @@ import React from "react";
 
 import MovieCardContainer from './moviecard.style'
 
-const MovieCard = ({ movie, showPopUp }) => {
+const MovieCard = ({ movie, showHidePopUp }) => {
     const base_url = "http://image.tmdb.org/t/p/w500/";
   
     return (
-      <MovieCardContainer onClick={() => showPopUp(movie)}>
+      <MovieCardContainer onClick={() => showHidePopUp(movie)}>
         <img
           src={base_url + movie.backdrop_path}
           alt={movie.title}
